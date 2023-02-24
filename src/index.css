@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "typo";
+  src: local("typo"),
+    url(./assets/fonts/typo-grotesk-thin.otf) format("truetype");
+}
+@font-face {
+  font-family: "newyork";
+  src: local("newyork"),
+    url(./assets/fonts/NewYork.ttf) format("truetype");
+}
+@font-face {
+  font-family: "kate";
+  src: local("kate"),
+    url(./assets/fonts/Kate_Typeface/Kate-Display.otf) format("truetype");
+}
+@layer base {
+  *{
+    scroll-behavior: smooth;
+  }
+  body {
+    font-family: "quicksand";
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+}
