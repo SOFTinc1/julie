@@ -24,19 +24,17 @@ export const Other2Container = styled.div`
     @media screen and (max-width: 830px) {
     }
   `;
-export const Row = styled.div`
-  display: flex;
-  gap: 20px;
-  overflow-x: scroll;
-  -ms-overflow-style: none !important;
-  scrollbar-width: none !important;
-
-  &::-webkit-scrollbar {
-    display: none; /* Safari and Chrome */
-  }
-
-  @media screen and (max-width: 830px) {
-  }
-`;
+// export const Row = styled.div`
+//   display: flex;
+//   gap: 20px;
 
 
+//   @media screen and (max-width: 830px) {
+//   }
+// `;
+// export const FormContainer = styled.div`
+
+
+//   @media screen and (max-width: 830px) {
+//   }
+// `;

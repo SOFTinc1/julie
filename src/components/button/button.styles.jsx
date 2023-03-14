@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const ButtonContainer = styled.div`
+  width: fit-content;
   cursor: pointer;
   letter-spacing: 1px;
-  background: #242424;
-  // border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  color: #fff;
+  background: transaprent;
+  border: 2px solid #f5f5f5;
+  border-radius: 0;
+  color: #f5f5f5;
   padding: 8px 15px;
-  font-family: typo;
+  font-family: dona;
   font-weight: 400;
-  color: #000;
   transition: all 0.9s ease-in-out;
   font-size: 16px;
   text-transform: capitalize; 

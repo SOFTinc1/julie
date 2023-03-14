@@ -5,9 +5,9 @@ import {
   Col1,
   Title,
   Details,
-  ButtonFlex,
-  Hr,
   ButtonCon,
+  ButtonText,
+  Icon,
   Col2,
   ImgSrc,
   ImgSrc2,
@@ -32,10 +32,10 @@ function Other() {
             facilis qui aut culpa in placeat, Quod maxime, animi ipsam iusto
             iste distinctio voluptas dolor possimus architecto fugiat?
           </Details>
-          <ButtonFlex>
-        <Hr />
-        <ButtonCon>book session now</ButtonCon>
-      </ButtonFlex>
+          <ButtonCon>
+            <ButtonText>book session now</ButtonText>
+            <Icon>&#866;</Icon>
+          </ButtonCon>
         </Col1>
         <Col2>
           <ImgSrc src={One} />

@@ -8,14 +8,14 @@
     url(./assets/fonts/typo-grotesk-thin.otf) format("truetype");
 }
 @font-face {
-  font-family: "newyork";
-  src: local("newyork"),
-    url(./assets/fonts/NewYork.ttf) format("truetype");
+  font-family: "dona";
+  src: local("dona"),
+    url(./assets/fonts/DonaAlt-Regular.ttf) format("truetype");
 }
 @font-face {
-  font-family: "kate";
-  src: local("kate"),
-    url(./assets/fonts/Kate_Typeface/Kate-Display.otf) format("truetype");
+  font-family: "tuyet";
+  src: local("tuyet"),
+    url(./assets/fonts/P22\ Ornes\ W00\ Bold\ SC.ttf) format("opentype");
 }
 @layer base {
   *{

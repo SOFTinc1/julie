@@ -40,7 +40,8 @@ export const Details = styled.div`
   width: 100%;
   border-radius: 7px;
   padding: 20px 20px 10px 20px;
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  outline: 2px solid rgba(0, 0, 0, 0.1);
+  // box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 
   @media screen and (max-width: 830px) {
     padding: 20px;

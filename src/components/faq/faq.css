@@ -1,0 +1,26 @@
+.accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed):focus {
+  box-shadow: rgb(0 0 0 / 0%) 0px 0px 0px;
+  border-radius: 7px !important;
+}
+.card {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  margin: 30px 0 0 0;
+  border-radius: 7px !important;
+}
+.cardHeader {
+  background-color: #fff !important;
+  color: #000 !important;
+  font-family: typo;
+  font-weight: 600;
+  letter-spacing: 0.05rem !important;
+  text-transform: capitalize !important;
+}
+.cardBody {
+  background-color: #fff !important;
+  color: #000 !important;
+  font-family: typo;
+  font-weight: 600;
+  letter-spacing: 0.05rem !important;
+  text-transform: capitalize !important;
+}

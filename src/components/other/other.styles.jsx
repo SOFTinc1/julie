@@ -3,11 +3,14 @@ import Button from "../button/button";
 
 export const OtherContainer = styled.div`
   width: 100%;
-  padding: 30px 80px;
+  padding: 0 80px;
+  background-color: #000;
   overflow: hidden !important;
 
   @media screen and (max-width: 830px) {
     padding: 30px 10px;
+    outline: none;
+    border: none;
   }
 `;
 export const Row = styled.div`
@@ -16,6 +19,8 @@ export const Row = styled.div`
 
   @media screen and (max-width: 830px) {
     display: block;
+    outline: none;
+    border: none;
   }
 `;
 export const Col1 = styled.div`
@@ -26,12 +31,12 @@ export const Col1 = styled.div`
   }
 `;
 export const Title = styled.h1`
-  color: #000;
-  font-family: newyork;
+  color: #f5f5f5;
+  font-family: typo;
   font-size: 36px;
   text-decoration: none;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.05rem;
   margin: 80px 0 20px 0;
   text-align: left;
@@ -41,11 +46,11 @@ export const Title = styled.h1`
   }
 `;
 export const Details = styled.p`
-  color: #000;
-  font-family: typo;
+  color: #cecece;
+  font-family: dona;
   font-size: 16px;
   text-decoration: none;
-  text-transform: capitalize;
+  text-transform: lowercase;
   font-weight: 400;
   letter-spacing: 0.05rem;
   text-align: left;
@@ -56,33 +61,38 @@ export const Details = styled.p`
     line-height: 30px;
   }
 `;
-export const ButtonFlex = styled.div`
+
+export const ButtonCon = styled(Button)`
+  align-items: center !important;
   display: flex;
-  gap: 0;
-  align-items: center;
-  margin: 40px 0;
+  gap: 10px;
+  text-align: center;
+  padding: 15px 40px;
+  margin: 20px 0 0 auto;
 
   @media screen and (max-width: 830px) {
-    font-size: 16px;
     margin: 0 0 40px 0;
   }
 `;
-export const Hr = styled.hr`
-  width: 400px;
+export const ButtonText = styled.h1`
+  font-weight: 800;
+  color: #f5f5f5;
+  font-size: 16px;
+  align-items: center !important;
+  margin: 0;
+  width: fit-content;
 
   @media screen and (max-width: 830px) {
-    width: 200px;
   }
 `;
-export const ButtonCon = styled(Button)`
-  width: 190px;
-  font-weight: 800;
+export const Icon = styled.h1`
+  width: fit-content;
+  font-size: 44px;
   color: #fff;
-  padding: 12px 20px;
-  // border-radius: 50px;
+  margin: -37px 0 0 0;
+  padding: 0;
 
   @media screen and (max-width: 830px) {
-    width: 210px;
   }
 `;
 export const Col2 = styled.div`

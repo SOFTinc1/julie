@@ -1,6 +1,13 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { HeaderContainer, LogoImg, NavBar, Option, ButtonImg } from "./header.styles";
+import {
+  HeaderContainer,
+  LogoText,
+  // LogoImg,
+  NavBar,
+  Option,
+  // ButtonImg,
+} from "./header.styles";
 
 import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
@@ -15,21 +22,21 @@ function Header() {
   return (
     <HeaderContainer>
       <Navbar bg="transparent" expand="lg" className="expand-md">
-        <Container fluid>
+        <Container fluid className="container">
           <Navbar.Brand
             onClick={() => {
               navigate("/");
             }}
             alt=""
           >
-            <LogoImg src={Logo} alt="" />
+            {/* <LogoImg src={Logo} alt="" /> */}
+            <LogoText>julie</LogoText>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="navbarScroll" />
 
           <Navbar.Collapse id="navbarScroll">
             <NavBar className="ms-auto">
-
               <Nav.Link className="option-nav">
                 <Option to="/">galleries</Option>
               </Nav.Link>
@@ -42,11 +49,11 @@ function Header() {
                 <Option to="/">about us</Option>
               </Nav.Link>
 
-              <Nav.Link className="option-nav closeonmobile">
+              {/* <Nav.Link className="closeonmobile">
                 <Option to="/">
-                  <ButtonImg src={Message}/>
+                  <ButtonImg src={Message} />
                 </Option>
-              </Nav.Link>
+              </Nav.Link> */}
             </NavBar>
           </Navbar.Collapse>
         </Container>

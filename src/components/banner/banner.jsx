@@ -3,24 +3,31 @@ import Header from "../header/header";
 import Sections from "../sections/sections";
 import {
   BannerContainer,
+  DarkOverlay,
   Details,
-  LeftDiv,
-  LeftDiv2,
-  LeftDiv3,
-  RightDiv,
+  H1,
+  P,
+  ButtonDiv,
+  ButtonCont,
+  ButtonCon,
 } from "./banner.styles";
 
 function Banner() {
   return (
     <BannerContainer>
-      <Header />
-      <Details>
-        <LeftDiv>every</LeftDiv>
-        <LeftDiv2>moment matters, let us</LeftDiv2>
-        <LeftDiv3>capture them for you</LeftDiv3>
-      </Details>
-      <RightDiv>our prices are affordable and low, give us a try</RightDiv>
-      <Sections />
+      <DarkOverlay>
+        <Header />
+        <Details>
+          <H1>we are here to capture all your beautiful moments.</H1>
+          <P>our prices are affordable and low, give us a try</P>
+          <ButtonDiv>
+            <ButtonCont>learn more about us</ButtonCont>
+            <ButtonCon>book session now</ButtonCon>
+          </ButtonDiv>
+        </Details>
+      </DarkOverlay>
+
+      {/* <Sections />  */}
     </BannerContainer>
   );
 }

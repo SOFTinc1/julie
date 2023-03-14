@@ -15,8 +15,6 @@ import {
   Col3,
   Img6,
   Img7,
-  ButtonFlex,
-  Hr,
   ButtonCon,
 } from "./gallery-overview.styles";
 import one from "../../assets/images/1.png";
@@ -49,10 +47,7 @@ function GalleryOverview() {
           <Img7 src={seven} />
         </Col3>
       </Row>
-      <ButtonFlex>
-        <Hr />
         <ButtonCon>View more</ButtonCon>
-      </ButtonFlex>
     </GalleryOverviewContainer>
   );
 }

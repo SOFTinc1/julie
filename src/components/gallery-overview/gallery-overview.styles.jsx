@@ -3,19 +3,19 @@ import Button from "../button/button";
 
 export const GalleryOverviewContainer = styled.div`
   padding: 30px 80px 80px 80px;
-  background: #fafafa;
+  background: #000;
 
   @media screen and (max-width: 830px) {
     padding: 30px 10px;
   }
 `;
 export const Title = styled.h1`
-  color: #000;
-  font-family: newyork;
+  color: #f5f5f5;
+  font-family: typo;
   font-size: 36px;
   text-decoration: none;
   text-transform: capitalize;
-  font-weight: 400;
+  font-weight: 600;
   letter-spacing: 0.05rem;
   margin: 20px 0 0 0;
   text-align: left;
@@ -25,14 +25,14 @@ export const Title = styled.h1`
   }
 `;
 export const Head = styled.h1`
-  color: #000;
-  font-family: typo;
-  font-size: 26px;
+  color: #f5f5f5;
+  font-family: dona;
+  font-size: 18px;
   text-decoration: none;
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 0.05rem;
-  margin: 0 0 80px 0;
+  margin: 15px 0 80px 0;
   text-align: left;
 
   @media screen and (max-width: 830px) {
@@ -143,32 +143,12 @@ export const Img7 = styled.img`
     height: auto;
   }
 `;
-export const ButtonFlex = styled.div`
-  display: flex;
-  gap: 0;
-  align-items: center;
-  margin: 40px 0;
-
-  @media screen and (max-width: 830px) {
-    margin: 40px 0;
-  }
-`;
-export const Hr = styled.hr`
-  width: 1100px;
-
-  @media screen and (max-width: 830px) {
-    width: 200px;
-  }
-`;
 export const ButtonCon = styled(Button)`
-width: 130px;
-font-weight: 800;
 color: #fff;
-padding: 12px 20px;
-// border-radius: 50px;
+margin: 20px 0 0 auto;
+padding: 15px auto;
 
 @media screen and (max-width: 830px) {
-  width: 150px;
-  margin: 0;
+  
 }
 `;
